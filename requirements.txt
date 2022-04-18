@@ -1,0 +1,12 @@
+backports.statistics==0.1.0
+Cython==0.29.28
+dl==0.1.0
+ipaddr==2.2.0
+keyring==18.0.1
+mypy_extensions==0.4.3
+numpy==1.22.3
+opencv_python==4.5.5.64
+openpyxl==3.0.9
+ordereddict==1.1
+pytesseract==0.3.9
+wincertstore==0.2.1
