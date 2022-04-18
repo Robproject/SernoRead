@@ -57,7 +57,7 @@ def get_sernos():
                 img = process_photo(f)
                 # crop serno area, thresh, scale
                 img = img[70:140, 875:1020]
-                img = cv2.threshold(img, 150, 255, cv2.THRESH_BINARY_INV)[1]
+                img = cv2.threshold(img, 110, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
                 img = cv2.resize(img, (0, 0), fx=5, fy=5)
                 # get text
                 serno = pytesseract.image_to_string(img, config="-c tessedit_char_whitelist=0123456789 --psm 8") 
