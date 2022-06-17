@@ -24,5 +24,4 @@ Logic:
 			iii. if value different, skip and notify  
 		b. else, create and write  
 
-
 ```
